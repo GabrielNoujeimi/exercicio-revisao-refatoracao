@@ -10,7 +10,7 @@ class Engenheiro : public Empregado {
     std::string nome;
 
   private:    
-	int projetos;
+    int projetos;
 
   public:
     void setProjetos (int projetos);
