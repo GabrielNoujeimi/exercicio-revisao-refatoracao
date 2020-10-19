@@ -4,9 +4,8 @@
 # define TrabalhoDiario 8
 
 double Empregado::pagamentoMes(double horasTrabalhadas) {
- 
-	  
-	//Cálculo de hora extra (+50% se horasTrabalhadas > 8)
+   
+    //Cálculo de hora extra (+50% se horasTrabalhadas > 8)
     if (horasTrabalhadas > 8) {
      double horaExtra = horasTrabalhadas - TrabalhoDiario;
      horasTrabalhadas += horaExtra / 2;
